@@ -1,0 +1,120 @@
+body {
+  padding-top: 50px;
+  background-color:#e2e2e2;
+}
+
+h1{
+	color: #DC760E;
+}
+
+.main-img{
+
+}
+
+.jumbotron {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color:#CFD8DC;
+
+}
+.jumbotron img{
+	text-align: center;
+	margin-left: 10px;
+}
+.main-container{
+	background-color: white;
+	margin-top: 10px;
+	padding: 0 30px 30px 30px;
+}
+
+.navbar-default{
+
+	color: #d5dbe5 !important;
+	font-size:20px;
+	background-color: white;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:#CFD8DC;
+    color:white;
+}
+
+
+.orange-line img{
+	width: 100%;
+	height: 20px;
+	padding-top:0; 
+}
+
+#title{
+	text-align: center;
+	color: black;
+	margin: 15px auto;
+	font-size:35px;
+	margin-right: 50px;
+	}
+	
+
+#jobtitle{
+
+
+	color:#DC760E;
+}
+
+.media{
+
+	font-size: 25px;
+
+}
+
+.backend h1{
+	margin-top: 50px;
+	text-align: center;
+	color:white;
+	
+	background-color: #DC760E;
+	border-radius: 100px;
+}
+
+.frontend h1{
+	margin-top: 50px;
+	text-align: center;
+	background-color: #DC760E;
+	color: white;
+	
+	border-radius: 100px;
+}
+
+footer{
+	background-color: #CFD8DC
+}
+
+#carousel-example-generic{
+	width: 100%;
+	height: 100%;
+}
+
+.panel-default{
+	margin-top: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: #DC760E;
+
+}
+
+
+#profile-pic{
+	border-radius: 50%;
+	border-right: black;
+	border: 5px solid #ffaa00;
+	width: 100px;
+	text-align: center;
+}
+
+#profile-pic img{
+	text-align: center;
+}
+
+.main-content{
+	background-color: white;
+}
