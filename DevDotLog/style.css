@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
-  background-color:#e2e2e2;
+  background-color:#c6c6c6;
+  position: relative;
 }
 
 h1{
@@ -11,15 +12,31 @@ h1{
 
 }
 
+#banner-text{
+	margin-bottom: 10px;
+	margin-top: 0px;
+	}
 .jumbotron {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	background-color:#CFD8DC;
+	/**background-image: url(img/background-img.jpg);**/
+	background-color: black;
+	
+	width: 100%;
+	height: 100%;
 
 }
 .jumbotron img{
-	text-align: center;
-	margin-left: 10px;
+	width: 65%;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	
+}
+
+.jumbotron p{
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
 }
 .main-container{
 	background-color: white;
@@ -27,17 +44,26 @@ h1{
 	padding: 0 30px 30px 30px;
 }
 
-.navbar-default{
+#Tag-Line{
+	font-size: 42px;
+	font-weight: bold;
+	color: white;
 
-	color: #d5dbe5 !important;
-	font-size:20px;
-	background-color: white;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color:#CFD8DC;
-    color:white;
+.navbar-inverse{
+
+	color: black;
+	font-size:22px;
+	background-color: black;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:black;
+    color:#51d6ff;
 }
 
+.divider{
+	color: white;
+}
 
 .orange-line img{
 	width: 100%;
@@ -46,8 +72,8 @@ h1{
 }
 
 #title{
-	text-align: center;
-	color: black;
+
+	color: #51d6ff;
 	margin: 15px auto;
 	font-size:35px;
 	margin-right: 50px;
@@ -57,7 +83,8 @@ h1{
 #jobtitle{
 
 
-	color:#DC760E;
+	color:#51d6ff;
+	text-align: center;
 }
 
 .media{
@@ -96,9 +123,9 @@ footer{
 .panel-default{
 	margin-top: 40px;
 	text-align: center;
-	font-weight: bold;
-	font-size: 25px;
-	color: #DC760E;
+	font-size: 22px;
+	color: #51d6ff;
+	background-color: black;
 
 }
 
@@ -117,4 +144,8 @@ footer{
 
 .main-content{
 	background-color: white;
+}
+
+#skills img{
+	width: 80%
 }
