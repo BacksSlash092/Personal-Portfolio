@@ -1,19 +1,41 @@
+
+/** GLOBAL*/
 body {
   padding-top: 50px;
-  background-color:#c6c6c6;
+  background-color:white;
   position: relative;
 }
 
-h1{
-	color: #DC760E;
+
+
+h4{
+	color:black;
+	font-size: 25px;
+	font-weight: bold;
+}
+#main-content{
+	background-color:#1a1b1c
+;
+
 }
 
-.main-img{
 
+/** NAvigation BAR**/
+.navbar-inverse{
+
+	color: black;
+	font-size:22px;
+	background-color: black;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color:black;
+    color:#51d6ff;
+}
+
+/** Main Banner**/
 
 #banner-text{
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	margin-top: 0px;
 	}
 .jumbotron {
@@ -27,7 +49,7 @@ h1{
 
 }
 .jumbotron img{
-	width: 65%;
+	width: 60%;
 	background-repeat: no-repeat;
 	margin-top: 20px;
 	
@@ -50,21 +72,26 @@ h1{
 	color: white;
 
 }
-.navbar-inverse{
 
-	color: black;
-	font-size:22px;
-	background-color: black;
+#main-video{
+	margin-top:0px;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color:black;
-    color:#51d6ff;
-}
+
+
 
 .divider{
 	color: white;
 }
 
+
+.media img{
+	width: 50px;
+}
+
+.media p{
+	font-size: 18px;
+
+}
 .orange-line img{
 	width: 100%;
 	height: 20px;
@@ -89,63 +116,97 @@ h1{
 
 .media{
 
-	font-size: 25px;
+	font-size: 20px;
 
 }
 
-.backend h1{
-	margin-top: 50px;
+
+
+/** About ME **/
+
+
+#aboutme h1{
+	color: white;
 	text-align: center;
-	color:white;
-	
-	background-color: #DC760E;
-	border-radius: 100px;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+#aboutme p{
+	color: white;
+	font-size: 22px;
+	font-family: tahoma;
+
+}
+
+#aboutme img{
+	border: solid grey .06em;
+	width: 60%;
+	border-radius: 250px;
+}
+/** Social Media **/
+#social-media{
+	background-color: black;
+	text-align: left;
+}
+#social-media img{
+	width: 50px;
+	margin-bottom: 10px;
+}
+
+
+/**SKILLS**/
+#skills p{
+	color: white;
+	font-size: 18px;
+}
+
+#skills h4{
+	color: #51d6ff;
+}
+
+/**Publications**/
+#publications img{
+	width: 100%;
+}
+
+#publications h1{
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+/** Global Panel Settings**/
+.panel-title{
+	color: blue;
+	background-color: black;
+}
+
+/**Contact**/
+
+#contact{
+	margin-top: 60px;
+}
+
+#contact .list-group-item{
+	background-color: black;
+	color: #51d6ff;
+	text-align: center;
+}
+/** Footer**/
+
+footer{
+	background-color: black;
+	height: 200px;
 }
 
 .frontend h1{
-	margin-top: 50px;
+	margin-top: 70px;
 	text-align: center;
-	background-color: #DC760E;
-	color: white;
-	
-	border-radius: 100px;
-}
-
-footer{
-	background-color: #CFD8DC
-}
-
-#carousel-example-generic{
-	width: 100%;
-	height: 100%;
-}
-
-.panel-default{
-	margin-top: 40px;
-	text-align: center;
-	font-size: 22px;
-	color: #51d6ff;
 	background-color: black;
-
+	color: white;
+	border-radius: 100px;
+	font-size: 32px;
 }
 
 
-#profile-pic{
-	border-radius: 50%;
-	border-right: black;
-	border: 5px solid #ffaa00;
-	width: 100px;
-	text-align: center;
-}
-
-#profile-pic img{
-	text-align: center;
-}
-
-.main-content{
-	background-color: white;
-}
-
-#skills img{
-	width: 80%
-}
