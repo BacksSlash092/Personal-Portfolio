@@ -22,13 +22,14 @@ h4{
 /** NAvigation BAR**/
 .navbar-inverse{
 
-	color: black;
-	font-size:22px;
+	color: #e29d36;
+	font-size:18px;
 	background-color: black;
+	font-style: tahoma;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     background-color:black;
-    color:#51d6ff;
+    color:#e29d36;
 }
 
 /** Main Banner**/
@@ -109,7 +110,7 @@ h4{
 #jobtitle{
 
 
-	color:#51d6ff;
+	color:#e29d36;
 	text-align: center;
 }
 
@@ -135,7 +136,7 @@ h4{
 }
 
 #aboutme p{
-	color: white;
+	color: #e29d36;
 	font-size: 22px;
 	font-family: tahoma;
 
@@ -163,15 +164,15 @@ h4{
 }
 #skills p{
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 #skills h4{
-	color:  #51d6ff;
+	color:  #e29d36;
 }
 
 #skills h1{
-	color: white;
+	color: #e29d36;
 	text-align: center;
 	margin-bottom: 60px;
 	margin-top: 60px;
@@ -184,7 +185,7 @@ h4{
 }
 
 #publications h1{
-	color: white;
+	color: #e29d36;
 	text-align: center;
 	margin-bottom: 60px;
 	margin-top: 60px;
@@ -206,7 +207,7 @@ h4{
 
 #projects .list-group-item{
 	background-color: black;
-	color: #51d6ff;
+	color: #e29d36;
 	text-align: center;
 }
 /**SERVICES**/
@@ -219,14 +220,14 @@ h4{
 
 #services h1{
 	width: 100%;
-	color: white;
+	color: #e29d36;
 	text-align: center;
 	margin-bottom: 60px;
 	margin-top: 60px;
 }
 
 #services h2{
-	color: #51d6ff;
+	color: #e29d36;
 	text-align: center;
 }
 
@@ -258,18 +259,14 @@ footer {
 .frontend h1{
 	margin-top: 70px;
 	text-align: center;
-	background-color: black;
-	color: white;
-	border-radius: 100px;
-	font-size: 32px;
+	
 }
-
 
 
 footer{
 	background: black;
 	color: #fff;
-	padding:30px 0 20px 0; ;
+	padding:30px 0 20px 0; 
 
 }
 
@@ -287,3 +284,19 @@ footer a {
  footer p{
  	float: right;
  }
+
+ .work-list li{
+	list-style: none;
+	float: left;
+	padding: 0 10px 0 10px;
+	margin-bottom: 30px;
+	color: white;
+
+}
+.work-list h1{
+	width: 100%;
+	color: #e29d36;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
