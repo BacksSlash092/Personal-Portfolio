@@ -14,8 +14,7 @@ h4{
 	font-weight: bold;
 }
 #main-content{
-	background-color:#1a1b1c
-;
+	background-color:#0c0f14;
 
 }
 
@@ -124,12 +123,15 @@ h4{
 
 /** About ME **/
 
-
+#aboutme{
+	margin-bottom: 40px;
+}
 #aboutme h1{
 	color: white;
 	text-align: center;
-	margin-bottom: 60px;
-	margin-top: 60px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+
 }
 
 #aboutme p{
@@ -156,18 +158,29 @@ h4{
 
 
 /**SKILLS**/
+#skills{
+
+}
 #skills p{
 	color: white;
 	font-size: 18px;
 }
 
 #skills h4{
-	color: #51d6ff;
+	color:  #51d6ff;
+}
+
+#skills h1{
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
 }
 
 /**Publications**/
 #publications img{
 	width: 100%;
+	margin-bottom: 30px;
 }
 
 #publications h1{
@@ -176,6 +189,48 @@ h4{
 	margin-bottom: 60px;
 	margin-top: 60px;
 }
+
+
+
+/** PROJECTS **/
+#projects h1{
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+#projects img{
+	width: 1000px;
+	height: 400px;
+}
+
+#projects .list-group-item{
+	background-color: black;
+	color: #51d6ff;
+	text-align: center;
+}
+/**SERVICES**/
+#services{
+
+}
+#services img{
+	width: 100%;
+}
+
+#services h1{
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+#services h2{
+	color: #51d6ff;
+	text-align: center;
+}
+
+
 /** Global Panel Settings**/
 .panel-title{
 	color: blue;
@@ -195,7 +250,7 @@ h4{
 }
 /** Footer**/
 
-footer{
+footer {
 	background-color: black;
 	height: 200px;
 }
@@ -210,3 +265,25 @@ footer{
 }
 
 
+
+footer{
+	background: black;
+	color: #fff;
+	padding:30px 0 20px 0; ;
+
+}
+
+footer li{
+	float:left;
+	padding: 0 10px 0 10px;
+	list-style: none;
+}
+
+
+footer a { 
+	color: #fff;
+ }
+
+ footer p{
+ 	float: right;
+ }
