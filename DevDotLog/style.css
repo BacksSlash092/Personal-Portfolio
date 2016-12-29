@@ -300,3 +300,36 @@ footer a {
 	margin-bottom: 60px;
 	margin-top: 60px;
 }
+
+@media(max-width: 990px){
+	
+ 	.jumbotron img{
+ 		width:80%;
+}
+ 	.jumbotron video{
+ 		display: none;
+ 	
+ 	}
+@media(min-width: 200px) and (max-width:780px ){
+	
+ 	.jumbotron img{
+ 		width:180%;
+	}
+	
+	.jumbotron #Tag-Line{
+		font-size: 25px;
+
+	}
+
+	#aboutme h1{
+		font-size: 20px;
+	}
+ 	
+ 	#aboutme img{
+ 		display: none;
+ 	}
+
+ 	#skills p{
+ 		font-size: 16px;
+ 	}
+ 	}
