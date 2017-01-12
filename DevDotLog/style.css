@@ -1,335 +1,119 @@
 
 /** GLOBAL*/
 body {
-  padding-top: 50px;
-  background-color:white;
-  position: relative;
+ 	margin-top: 60px;
+    font-family: "Helvetica Neue";
+    background-color: white;
 }
 
 
-
-h4{
-	color:black;
-	font-size: 25px;
-	font-weight: bold;
-}
-#main-content{
-	background-color:#0c0f14;
-
-}
 
 
 /** NAvigation BAR**/
 .navbar-inverse{
 
-	color: #e29d36;
-	font-size:18px;
-	background-color: black;
-	font-style: tahoma;
+	
+	
+
 }
+
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color:black;
-    color:#e29d36;
+    color:white;
+    font-size: 20px;
+    border-bottom: solid blue 2px ;
 }
 
-/** Main Banner**/
+nav{
+	min-height: 60px !important;
 
-#banner-text{
-	margin-bottom: 0px;
-	margin-top: 0px;
-	}
-.jumbotron {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	/**background-image: url(img/background-img.jpg);**/
-	background-color: black;
+
+}
+
+nav.navbar.shrink {
+  min-height: 50px !important;
+}
+
+nav.navbar{
+  background-color:rgba(26,49,79,0.6);
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  color: white !important;
+
+ 
+
+   // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar > li > a{
+	color: white;
+}
+
+
+.nav.navbar-nav li a {
+   color: #fff;
+ }
+
+
+.main-content{
+	background-color: #eff1f2;
 	
-	width: 100%;
-	height: 100%;
-
-}
-.jumbotron img{
-	width: 60%;
-	background-repeat: no-repeat;
-	margin-top: 20px;
-	
-}
-
-.jumbotron p{
-	color: white;
-	font-size: 20px;
-	font-family: sans-serif;
-}
-.main-container{
-	background-color: white;
-	margin-top: 10px;
-	padding: 0 30px 30px 30px;
-}
-
-#Tag-Line{
-	font-size: 42px;
-	font-weight: bold;
-	color: white;
-
-}
-
-#main-video{
-	margin-top:0px;
 }
 
 
+.title-section{
+	/*background-color: #eff1f2;*/
+	background-color:#1a314f;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
-.divider{
-	color: white;
-}
 
-
-.media img{
-	width: 50px;
-}
-
-.media p{
-	font-size: 18px;
-
-}
-.orange-line img{
-	width: 100%;
-	height: 20px;
-	padding-top:0; 
 }
 
 #title{
-
-	color: #51d6ff;
-	margin: 15px auto;
-	font-size:35px;
-	margin-right: 50px;
-	}
-	
-
-#jobtitle{
-
-
-	color:#e29d36;
-	text-align: center;
-}
-
-.media{
-
-	font-size: 20px;
-
-}
-
-
-
-/** About ME **/
-
-#aboutme{
-	margin-bottom: 40px;
-}
-#aboutme h1{
 	color: white;
-	text-align: center;
-	margin-bottom: 70px;
-	margin-top: 70px;
-
 }
 
-#aboutme p{
-	color: #e29d36;
-	font-size: 22px;
-	font-family: tahoma;
-
-}
-
-#aboutme img{
-	border: solid grey .06em;
-	width: 60%;
-	border-radius: 250px;
-}
-/** Social Media **/
-#social-media{
-	background-color: black;
-	text-align: left;
-}
-#social-media img{
-	width: 50px;
-	margin-bottom: 10px;
-}
-
-
-/**SKILLS**/
-#skills{
-
-}
-#skills p{
+#description{
+	background-color: #454e59;
+	font-size: 16px;
 	color: white;
-	font-size: 20px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-#skills h4{
-	color:  #e29d36;
+ul {
+	text-decoration: none;
 }
 
-#skills h1{
-	color: #e29d36;
-	text-align: center;
-	margin-bottom: 60px;
-	margin-top: 60px;
+.personal-heading{
+	font-size: 18px;
+	font-weight: bold;
+	color: #1296a8;
+	margin-top: 15px;
+}
+.personal-heading-work{
+	border-left: solid gray 3px ;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
-/**Publications**/
-#publications img{
-	width: 100%;
-	margin-bottom: 30px;
-}
-
-#publications h1{
-	color: #e29d36;
-	text-align: center;
-	margin-bottom: 60px;
-	margin-top: 60px;
-}
-
-
-
-/** PROJECTS **/
-#projects h1{
-	color: white;
-	text-align: center;
-	margin-bottom: 60px;
-	margin-top: 60px;
-}
-#projects img{
-	width: 1000px;
-	height: 400px;
-}
-
-#projects .list-group-item{
-	background-color: black;
-	color: #e29d36;
-	text-align: center;
-}
-/**SERVICES**/
-#services{
-
-}
-#services img{
-	width: 100%;
-}
-
-#services h1{
-	width: 100%;
-	color: #e29d36;
-	text-align: center;
-	margin-bottom: 60px;
-	margin-top: 60px;
-}
-
-#services h2{
-	color: #e29d36;
-	text-align: center;
+.jobtitle{
+	font-weight: bold;
+	font-size: 16px;
 }
 
 
-/** Global Panel Settings**/
-.panel-title{
-	color: blue;
-	background-color: black;
+
+
+li {
+	list-style-type: : none;
 }
 
-/**Contact**/
-
-#contact{
-	margin-top: 60px;
+.job-desc{
+	padding-right: 40px;
+	padding-left: 40px;
 }
-
-#contact .list-group-item{
-	background-color: black;
-	color: #51d6ff;
-	text-align: center;
-}
-/** Footer**/
-
-footer {
-	background-color: black;
-	height: 200px;
-}
-
-.frontend h1{
-	margin-top: 70px;
-	text-align: center;
-	
-}
-
-
-footer{
-	background: black;
-	color: #fff;
-	padding:30px 0 20px 0; 
-
-}
-
-footer li{
-	float:left;
-	padding: 0 10px 0 10px;
-	list-style: none;
-}
-
-
-footer a { 
-	color: #fff;
- }
-
- footer p{
- 	float: right;
- }
-
- .work-list li{
-	list-style: none;
-	float: left;
-	padding: 0 10px 0 10px;
-	margin-bottom: 30px;
-	color: white;
-
-}
-.work-list h1{
-	width: 100%;
-	color: #e29d36;
-	text-align: center;
-	margin-bottom: 60px;
-	margin-top: 60px;
-}
-
-@media(max-width: 990px){
-	
- 	.jumbotron img{
- 		width:80%;
-}
- 	.jumbotron video{
- 		display: none;
- 	
- 	}
-@media(min-width: 200px) and (max-width:780px ){
-	
- 	.jumbotron img{
- 		width:180%;
-	}
-	
-	.jumbotron #Tag-Line{
-		font-size: 25px;
-
-	}
-
-	#aboutme h1{
-		font-size: 20px;
-	}
- 	
- 	#aboutme img{
- 		display: none;
- 	}
-
- 	#skills p{
- 		font-size: 16px;
- 	}
- 	}
