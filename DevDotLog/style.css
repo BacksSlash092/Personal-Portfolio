@@ -3,10 +3,22 @@
 body {
  	margin-top: 60px;
     font-family: "Helvetica Neue";
-    background-color: white;
+    background-color: #d4dadb
+;
 }
 
+.bold{
+	font-weight: bold;
+}
 
+.grey-margin{
+	border-left: solid gray 1px;
+	font-size: 16px;
+}
+
+ul {
+	list-style: none;
+}
 
 
 /** NAvigation BAR**/
@@ -18,9 +30,11 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color:white;
-    font-size: 20px;
-    border-bottom: solid blue 2px ;
+    color:black;
+    font-size: 25px;
+    border-bottom: solid #1a314f
+     2px ;
+      background-color:rgba(212,218,219,0.4);
 }
 
 nav{
@@ -31,10 +45,11 @@ nav{
 
 nav.navbar.shrink {
   min-height: 50px !important;
+ 
 }
 
 nav.navbar{
-  background-color:rgba(26,49,79,0.6);
+  background-color:rgba(212,218,219,0.2);
   font-family: "Helvetica Neue";
   font-size: 18px;
   color: white !important;
@@ -46,18 +61,15 @@ nav.navbar{
    transition: all 0.4s ease;
 }
 
-nav.navbar > li > a{
-	color: white;
-}
 
 
 .nav.navbar-nav li a {
-   color: #fff;
+   color: #1a314f;
  }
 
 
 .main-content{
-	background-color: #eff1f2;
+	background-color:white;
 	
 }
 
@@ -85,15 +97,15 @@ nav.navbar > li > a{
 	padding-bottom: 20px;
 }
 
-ul {
-	text-decoration: none;
-}
+
 
 .personal-heading{
 	font-size: 18px;
 	font-weight: bold;
 	color: #1296a8;
-	margin-top: 15px;
+
+	
+
 }
 .personal-heading-work{
 	border-left: solid gray 3px ;
@@ -104,6 +116,7 @@ ul {
 .jobtitle{
 	font-weight: bold;
 	font-size: 16px;
+	color: black;
 }
 
 
@@ -114,6 +127,18 @@ li {
 }
 
 .job-desc{
-	padding-right: 40px;
-	padding-left: 40px;
+	padding-right: 60px;
+	padding-left: 60px;
+	font-size: 16px;
 }
+
+.personal-information{
+	
+}
+.personal-information p { 
+	font-size: 18px;
+	padding-left: 10px;
+
+	padding-top: 4px;
+
+ }
