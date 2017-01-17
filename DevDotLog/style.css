@@ -11,15 +11,41 @@ body {
 	font-weight: bold;
 }
 
-.grey-margin{
-	border-left: solid gray 1px;
-	font-size: 16px;
-}
+
 
 ul {
 	list-style: none;
 }
 
+.display-img1{
+
+	width: 120px;
+	height: 120px;
+	margin-top: 80px;
+	margin-bottom: 20px;
+
+
+}
+
+
+.display-img2{
+
+	width: 120px;
+	height: 120px;
+	margin-top: 180px;
+	margin-bottom: 20px;
+
+}
+
+
+.display-img3{
+
+	width: 120px;
+	height: 120px;
+	margin-top: 160px;
+	margin-bottom: 20px;
+
+}
 
 /** NAvigation BAR**/
 .navbar-inverse{
@@ -76,7 +102,7 @@ nav.navbar{
 
 .title-section{
 	/*background-color: #eff1f2;*/
-	background-color:#1a314f;
+	background-color:rgba(219,168,94,0.9);
 	padding-top: 20px;
 	padding-bottom: 20px;
 
@@ -85,10 +111,12 @@ nav.navbar{
 
 #title{
 	color: white;
+	text-align: center;
+	font-weight: bold;
 }
 
 #description{
-	background-color: #454e59;
+	background-color: #1a314f;
 	font-size: 16px;
 	color: white;
 	padding-right: 60px;
