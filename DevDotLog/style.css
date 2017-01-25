@@ -5,9 +5,31 @@ body {
     font-family: "Helvetica Neue";
     background-color: #d4dadb;
     /** MArgin Bottom by footer Height**/
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 }
 
+
+ul {
+	list-style: none;
+	font-size: 20px;
+}
+
+li {
+	list-style-type: : none;
+	padding-bottom: 5px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+/* Custom GLobal*/
+.center{
+	text-align: center;
+}
 .bold{
 	font-weight: bold;
 }
@@ -17,34 +39,15 @@ body {
 	font-size: 16px;
 }
 
-ul {
-	list-style: none;
-}
-
-.center{
-	text-align: center;
-}
 
 /** NAvigation BAR**/
-.navbar-inverse{
-
-	
-	
-
-}
-
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color:black;
-    font-size: 25px;
-    border-bottom: solid #1a314f
-     2px ;
-      background-color:rgba(212,218,219,0.4);
+     background-color:rgba(212,218,219,0.4);
+
 }
 
 nav{
-	min-height: 60px !important;
-
-
+	min-height: 65px !important;
 }
 
 nav.navbar.shrink {
@@ -53,7 +56,7 @@ nav.navbar.shrink {
 }
 
 nav.navbar{
-  background-color:rgba(212,218,219,0.2);
+  background-color:rgba(26,49,79,0.6);
   font-family: "Helvetica Neue";
   font-size: 18px;
   color: white !important;
@@ -61,15 +64,32 @@ nav.navbar{
  
 
    // Animation
-   -webkit-transition: all 0.4s ease;
-   transition: all 0.4s ease;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
 }
 
 
-
 .nav.navbar-nav li a {
-   color: #1a314f;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
  }
+
+
+ .navbar-default .navbar-nav > .active{
+    color: #000;
+   background: #d65c14;
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: white;
+      background: #d65c14;
+ }
+
+
+
+/*Top of Website*/
 
 
 .main-content{
@@ -78,11 +98,14 @@ nav.navbar{
 }
 
 
+
+
+/*Title */
 .title-section{
 	/*background-color: #eff1f2;*/
 	background-color:#1a314f;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 
 
 }
@@ -91,11 +114,13 @@ nav.navbar{
 	color: white;
 }
 
+
 #description{
+	/*Description about self. Positioned rigth under title. */
 	background-color: #454e59;
 	font-size: 16px;
 	color: white;
-	padding-right: 60px;
+	padding-right: 50px;
 	padding-left: 60px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -103,43 +128,38 @@ nav.navbar{
 
 
 
-.personal-heading{
-	font-size: 18px;
+.heading{
+	/*Defines style for type labels, example: Personal Information, Work, etc.*/
+	font-size: 22px;
 	font-weight: bold;
 	color: #1296a8;
 
 	
 
 }
-.personal-heading-work{
-	border-left: solid gray 3px ;
-	margin-top: 15px;
-	padding-top: 10px;
-	margin-bottom: 0px;
-}
+
+/*Job Entries*/
 
 .jobtitle{
 	font-weight: bold;
-	font-size: 16px;
-	color: black;
+	font-size: 18px;
+	color: #d65c14;
+	margin-top: 10px;
+
+	margin-bottom: 5px;
 }
 
 
 
-
-li {
-	list-style-type: : none;
-}
 
 .job-desc{
-	padding-right: 60px;
-	padding-left: 60px;
-	font-size: 16px;
+	margin-top: 5px;
+	padding-right: 90px;
+	padding-left: 50px;
+	font-size: 18px;
 }
 
-.personal-information{
-	
-}
+
 .personal-information p { 
 	font-size: 18px;
 	padding-left: 10px;
@@ -147,6 +167,10 @@ li {
 	padding-top: 4px;
 
  }
+
+
+
+
 
  /*footer*/
 
