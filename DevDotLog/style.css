@@ -3,8 +3,9 @@
 body {
  	margin-top: 60px;
     font-family: "Helvetica Neue";
-    background-color: #d4dadb
-;
+    background-color: #d4dadb;
+    /** MArgin Bottom by footer Height**/
+	margin-bottom: 60px;
 }
 
 .bold{
@@ -146,3 +147,25 @@ li {
 	padding-top: 4px;
 
  }
+
+ /*footer*/
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed heigth of the footer here*/
+	height: 90px;
+	background-color: #560401;
+}
+
+
+
+footer  {
+	background-color:#1a314f;
+	color: white;
+	text-align: center;
+	height: 90px;
+	width: 100%;
+}
+
