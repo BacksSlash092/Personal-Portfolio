@@ -235,4 +235,21 @@ footer  {
 				width:200px;
 			}
 
+			.jobtitle{
+				font-weight: bold;
+				font-size: 14px;
+				color: #d65c14;
+				margin-top: 10px;
+
+				margin-bottom: 5px;
+			}
+
+			.btn > .btn-primary a{
+				font-size: 10px;
+			}
+
+			s-font{
+				font-size: 10px;
+			}
+
  	}
