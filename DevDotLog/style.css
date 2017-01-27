@@ -253,3 +253,42 @@ footer  {
 			}
 
  	}
+
+@media(min-width: 100px) and (max-width:490px){
+	
+		 		
+			.grey-margin{
+			border-left: none;
+	
+			}
+
+
+		.heading{
+				/*Defines style for type labels, example: Personal Information, Work, etc.*/
+				font-size: 15px;
+				font-weight: bold;
+				color: #1296a8;
+
+				
+
+			}
+
+
+			.jobtitle{
+				font-weight: bold;
+				font-size: 12px;
+				color: #d65c14;
+				margin-top: 10px;
+
+				margin-bottom: 5px;
+			}
+
+			.job-desc{
+					margin-top: 5px;
+					padding-right: 5px;
+					padding-left: 10px;
+					font-size: 15px;
+			}
+
+			
+ 	}
